@@ -4,6 +4,7 @@ on:
   schedule:
     # 定时在 2024 年 9 月 14 日 12:00 UTC 执行
     - cron: '0 12 14 9 *'
+  workflow_dispatch:  # 添加此行，允许手动触发
 
 jobs:
   run-lottery:
