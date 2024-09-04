@@ -3,7 +3,7 @@ name: Scheduled Lottery Execution
 on:
   schedule:
     # 定时在 2024 年 9 月 14 日 12:00 UTC 执行
-    - cron: '0 12 14 9 2024'
+    - cron: '0 12 14 9 *'
 
 jobs:
   run-lottery:
