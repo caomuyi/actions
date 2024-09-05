@@ -28,6 +28,3 @@ jobs:
       - name: Run lottery script
         run: |
           python lottery_script.py
-
-      - name: Output result
-        run: cat result.txt
