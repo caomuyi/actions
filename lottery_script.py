@@ -33,4 +33,4 @@ for i in range(0, total_replies, group_size):
     winner = current_group[winner_index]
     winners.append(winner)
 
-print("The winners are:", winners)
+print("获奖者是", winners)
