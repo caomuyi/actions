@@ -33,4 +33,6 @@ for i in range(0, total_replies, group_size):
     winner = current_group[winner_index]
     winners.append(winner)
 
+# 打印当前时间
+print("当前时间戳:", time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
 print("获奖者是", winners)
